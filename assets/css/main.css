@@ -3136,3 +3136,9 @@ input, select, textarea {
 					}
 
 	}
+
+	.imagen-ajustada {
+		width: 100%; /* Ancho deseado */
+		height: auto; /* Altura se ajusta automáticamente para mantener la proporción */
+		aspect-ratio: 3 / 4; /* Establece la proporción deseada */
+	}
