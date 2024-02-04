@@ -7,6 +7,10 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+html {
+	scroll-behavior: smooth;
+  }
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -70,6 +74,10 @@ input, select, textarea {
 	-webkit-appearance: none;
 	-ms-appearance: none;
 	appearance: none;
+}
+
+.font24 {
+	font-size: 24px;
 }
 
 /* Basic */
@@ -1766,7 +1774,7 @@ input, select, textarea {
 
 		header > p {
 			display: block;
-			font-size: 1.5em;
+			font-size: 2em;
 			margin: 1em 0 2em 0;
 			line-height: 1.5em;
 			text-align: inherit;
@@ -2407,14 +2415,14 @@ input, select, textarea {
 
 /* Banner */
 
-	#banner {
+	#banner,#nosotros {
 		background: #fff;
 		text-align: center;
 		padding: 4.5em 0 4.5em 0;
 		margin-bottom: 0;
 	}
 
-		#banner header > p {
+		#banner header,#nosotros header > p {
 			margin-bottom: 0;
 		}
 
