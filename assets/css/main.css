@@ -96,6 +96,12 @@ input, select, textarea {
 
 }
 
+.video-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 /* Basic */
 
 	html {
